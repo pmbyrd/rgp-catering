@@ -14,7 +14,7 @@ form {
     padding: 10px;
     border: 1px solid black;
     max-width: 600px;
-	background: #FAFAFA;
+	background: #E1EBEE;
 	padding: 30px;
 	margin: 50px auto;
 	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
@@ -25,12 +25,25 @@ form {
 h3 {
     text-align: center;
     margin: 10px;
+    color: #0C2340;
 
 }
 
 button {
     margin: 10px;
-    padding: 10px;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+}
+
+button :hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
 }
 
 ul {
@@ -39,8 +52,13 @@ ul {
 	list-style:none;
 }
 
+label {
+font-weight: bold;
+color: #002244;
+}
+
 li {
-    
+    margin: 10px;
 }
 
 /* Styles the textareas */

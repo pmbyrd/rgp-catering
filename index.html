@@ -10,15 +10,15 @@
 
 <body>
     <h1>Hello World</h1>
-    <ul class="container">
+    <div class="container">
         <form action="">
             <h3>Order</h3>
             <ul class="details">
                 <ul class="order-details">
-                    <li>
+                    <!-- <li>
                         <label for="order-id">Order #:</label>
                         <input type="text" id="order-id">
-                    </li>
+                    </li> -->
                     <li>
                         <label for="order-date">Order Date:</label>
                         <input type="text" id="order-date" placeholder="mm/dd/yyyy">
@@ -28,11 +28,11 @@
                 <ul class="details-info">
                     <li>
                         <label for="order-day">Day</label>
-                        <input type="text" id="order-day">
+                        <input type="date" id="order-day">
                     </li>
                     <li>
                         <label for="count">Guest count</label>
-                        <input type="text" id="count">
+                        <input type="number" id="count">
                     </li>
                     <li>
                         <label for="event-name">Event Name</label>
@@ -46,20 +46,22 @@
                 <h3>Times</h3>
                 <ul class="details-times">
                     <li>
+                        <label for="pickup-time">Food Pickup Time</label>
+                        <input type="time" id="pickup-time">
                         <label for="delivery-time">Food Delivery Time</label>
-                        <input type="text" id="delivery-time">
+                    <input type="time" id="delivery-time">
                     </li>
                     <li>
                         <label for="start-time">Event Start Time</label>
-                        <input type="text" id="start-time">
+                        <input type="time" id="start-time">
                     </li>
                     <li>
                         <label for="end-time">Event End Time</label>
-                        <input type="text" id="end-time">
+                        <input type="time" id="end-time">
                     </li>
                     <li>
                         <label for="clean-up-time">Clean Up Time</label>
-                        <input type="text" id="clean-up-time">
+                        <input type="time" id="clean-up-time">
                     </li>
                 </ul>
             </ul>
@@ -95,6 +97,7 @@
                     <textarea name="drink-notes" id="" cols="30" rows="10"></textarea>
                 </li>
             </ul>
+            <h3>Contact Information</h3>
             <ul class="contact-info">
                 <li>
                     <label for="first-name">First Name</label>
@@ -130,6 +133,7 @@
 
         </form>
        </div>
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
  <script src="index.js"></script>
 </body>
 
